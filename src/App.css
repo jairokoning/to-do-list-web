@@ -14,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   color: #494a4b;
-  font-family: "Gochi Hand", cursive;
+  font-family: "Satisfy", cursive;
   text-align: center;
   font-size: 130%;
 }
@@ -44,6 +44,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 1rem;
+  gap: 6px;
 }
 
 .heading__title {
@@ -59,8 +60,11 @@ body {
     font-size: 2rem;
   }
 }
+
 .heading__img {
+  margin-top: 15px;
   width: 24%;
+  transform: rotate(-0.08turn);  
 }
 
 .form__label {
@@ -98,7 +102,7 @@ body {
   cursor: pointer;
   transform: rotate(4deg);
   transform-origin: center;
-  font-family: "Gochi Hand", cursive;
+  font-family: "Satisfy", cursive;
   text-decoration: none;
   padding-bottom: 3px;
   border-radius: 5px;
